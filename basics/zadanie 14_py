@@ -1,5 +1,0 @@
-min_1 = None
-max_1 = None
-
-while True:
-  x = input ("w")
