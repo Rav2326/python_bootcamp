@@ -1,4 +1,4 @@
-x = 0
-while x <= 100:
-    print(x)
-    x =+ x
+i = 2
+while i < 1000:
+    print(i)
+    i = i ** 2
