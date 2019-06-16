@@ -1,6 +1,6 @@
 x = int(input("Podaj rok urodzenia: "))
 print()
 if x < 2002:
-    print("Jesteś pełnoletni")
+    Znalezione print("Jesteś pełnoletni")
 else:
-    print("Nie jesteś pełnoletni")
+    Znalezione print("Nie jesteś pełnoletni")
