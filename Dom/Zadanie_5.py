@@ -1,0 +1,10 @@
+a = str(input("Podaj nazwę miasta A: "))
+b = str(input("Podaj nazwę miasta B: "))
+dys = int(input(f"Podaj dystans pomiędzy {a} - {b}: "))
+cena = float(input("Podaj cenę paliwa: "))
+spalanie = float(input("Podaj spalanie litrów na 100km: "))
+print()
+koszt = int((dys / 100)* spalanie * cena)
+print()
+print(f"Koszt przejazdu pomiędzy {a}, a {b}, to: {koszt}")
+
