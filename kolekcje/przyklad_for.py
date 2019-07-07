@@ -1,3 +1,5 @@
+#przyklady napisy
+
 napis = "Ala ma kota"
 
 print(napis[0])

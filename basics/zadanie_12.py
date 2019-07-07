@@ -1,4 +1,10 @@
-min_l = none
-max_l = none
-while True:
-    x = input ()
+x = int(input("Wprowadź liczbę: "))
+
+x <= 100
+
+while x < 2:
+    x = x ** 2
+    wynik = x ** 2
+print(f"Wynik: {wynik}")
+
+x = int(input("Wprowadź liczbę: "))
