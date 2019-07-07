@@ -6,6 +6,13 @@ Napisz funkcje, która:
 2. jesli argument bedzie słownikiem, to zwróci sumę wartosci
 
 """
+def to_numeric(value):
+    if isinstance(value, str) and value.isnumeric():
+        return int(value)
+    elif isinstance(value, bool):
+        return None
+    elif isinstance(value, int):
+        return value
 
 
 def my_sum(numbers):
